@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1509013954625" clover="3.2.0">
+  <project timestamp="1509013954625" name="All files">
+    <metrics statements="48" coveredstatements="47" conditionals="4" coveredconditionals="3" methods="17" coveredmethods="16" elements="69" coveredelements="66" complexity="0" loc="48" ncloc="48" packages="5" files="9" classes="9">
+      <package name="react-native-uptech-boilerplate">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <file name="App.js" path="/Users/berezynskyi/Documents/work/react-native-uptech-boilerplate/App.js">
+          <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+          <line num="19" count="1" type="stmt"/>
+          <line num="20" count="1" type="stmt"/>
+          <line num="30" count="1" type="stmt"/>
+        </file>
+      </package>
+      <package name="react-native-uptech-boilerplate.src.containers.MainScreen">
+        <metrics statements="11" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="3"/>
+        <file name="MainScreen.js" path="/Users/berezynskyi/Documents/work/react-native-uptech-boilerplate/src/containers/MainScreen/MainScreen.js">
+          <metrics statements="8" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="2"/>
+          <line num="12" count="1" type="stmt"/>
+          <line num="16" count="1" type="stmt"/>
+          <line num="20" count="0" type="stmt"/>
+          <line num="32" count="3" type="stmt"/>
+          <line num="35" count="3" type="stmt"/>
+          <line num="36" count="3" type="stmt"/>
+          <line num="53" count="1" type="stmt"/>
+          <line num="58" count="1" type="stmt"/>
+        </file>
+        <file name="index.js" path="/Users/berezynskyi/Documents/work/react-native-uptech-boilerplate/src/containers/MainScreen/index.js">
+          <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+          <line num="6" count="1" type="stmt"/>
+          <line num="11" count="3" type="stmt"/>
+          <line num="16" count="1" type="stmt"/>
+        </file>
+      </package>
+      <package name="react-native-uptech-boilerplate.src.store">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <file name="configureStore.js" path="/Users/berezynskyi/Documents/work/react-native-uptech-boilerplate/src/store/configureStore.js">
+          <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+          <line num="7" count="1" type="stmt"/>
+          <line num="9" count="1" type="stmt"/>
+          <line num="15" count="1" type="stmt"/>
+        </file>
+        <file name="index.js" path="/Users/berezynskyi/Documents/work/react-native-uptech-boilerplate/src/store/index.js">
+          <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+          <line num="6" count="1" type="stmt"/>
+          <line num="10" count="1" type="stmt"/>
+        </file>
+      </package>
+      <package name="react-native-uptech-boilerplate.src.store.main">
+        <metrics statements="24" coveredstatements="24" conditionals="4" coveredconditionals="3" methods="11" coveredmethods="11"/>
+        <file name="constants.js" path="/Users/berezynskyi/Documents/work/react-native-uptech-boilerplate/src/store/main/constants.js">
+          <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+          <line num="1" count="1" type="stmt"/>
+        </file>
+        <file name="duck.js" path="/Users/berezynskyi/Documents/work/react-native-uptech-boilerplate/src/store/main/duck.js">
+          <metrics statements="19" coveredstatements="19" conditionals="4" coveredconditionals="3" methods="9" coveredmethods="9"/>
+          <line num="12" count="2" type="stmt"/>
+          <line num="13" count="2" type="stmt"/>
+          <line num="18" count="2" type="stmt"/>
+          <line num="26" count="6" type="cond" truecount="2" falsecount="0"/>
+          <line num="28" count="2" type="stmt"/>
+          <line num="34" count="4" type="stmt"/>
+          <line num="43" count="2" type="stmt"/>
+          <line num="51" count="2" type="stmt"/>
+          <line num="52" count="2" type="stmt"/>
+          <line num="54" count="2" type="stmt"/>
+          <line num="65" count="2" type="stmt"/>
+          <line num="66" count="3" type="stmt"/>
+          <line num="67" count="3" type="stmt"/>
+          <line num="68" count="3" type="stmt"/>
+          <line num="77" count="2" type="stmt"/>
+          <line num="78" count="3" type="stmt"/>
+          <line num="79" count="3" type="stmt"/>
+          <line num="80" count="3" type="stmt"/>
+          <line num="94" count="2" type="stmt"/>
+        </file>
+        <file name="methods.js" path="/Users/berezynskyi/Documents/work/react-native-uptech-boilerplate/src/store/main/methods.js">
+          <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+          <line num="4" count="1" type="stmt"/>
+          <line num="5" count="1" type="stmt"/>
+          <line num="8" count="1" type="stmt"/>
+          <line num="9" count="1" type="stmt"/>
+        </file>
+      </package>
+      <package name="react-native-uptech-boilerplate.src.utils">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <file name="constants.js" path="/Users/berezynskyi/Documents/work/react-native-uptech-boilerplate/src/utils/constants.js">
+          <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+          <line num="1" count="1" type="stmt"/>
+          <line num="2" count="1" type="stmt"/>
+          <line num="3" count="1" type="stmt"/>
+          <line num="4" count="1" type="stmt"/>
+          <line num="6" count="1" type="stmt"/>
+        </file>
+      </package>
+    </metrics>
+  </project>
+</coverage>
