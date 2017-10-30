@@ -11,8 +11,8 @@ import {
 } from 'react-native';
 import { Provider } from 'react-redux';
 
-import configureStore from './src/store/configureStore';
-import MainScreen from './src/containers/MainScreen';
+import configureStore from './store/configureStore';
+import MainScreen from './containers/MainScreen';
 
 export default class App extends PureComponent<{}> {
   render() {
