@@ -1,4 +1,7 @@
-import { AppRegistry } from 'react-native';
-import App from './src/App';
+import { Provider } from 'react-redux';
+import { registerScreens } from './src/App';
+import configureStore from './src/store/configureStore';
 
-AppRegistry.registerComponent('UPTechBoilerplate', () => App);
+const store = configureStore();
+
+registerScreens(store, Provider);

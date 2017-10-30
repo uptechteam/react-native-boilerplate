@@ -29,6 +29,7 @@ class MainScreen extends Component {
       textContainer,
       centered,
       link,
+      createdByContainer,
     } = styles;
     const {
       appOpenedTimes,
@@ -41,10 +42,12 @@ class MainScreen extends Component {
         <View style={[centered, textContainer]}>
           <Text>App has been opened {appOpenedTimes} times</Text>
         </View>
-        <Text
-          style={createdBy}
-        >Boilerplate is created by <Text style={link} onPress={this.openResourse}>UPTech team</Text>
-        </Text>
+        <View style={[centered, createdByContainer]}>
+          <Text
+            style={createdBy}
+          >Boilerplate is created by <Text style={link} onPress={this.openResourse}>UPTech team</Text>
+          </Text>
+        </View>
       </View>
     );
   }
@@ -64,14 +67,17 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   textContainer: {
-    flex: 1,
+    flex: 0.3,
   },
   imageContainer: {
-    flex: 1,
+    flex: 0.6,
     marginTop: -30,
   },
   image: {
     width: 100,
+  },
+  createdByContainer: {
+    flex: 0.1,
   },
   createdBy: {
     bottom: 30,

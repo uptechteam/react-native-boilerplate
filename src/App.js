@@ -1,37 +1,26 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- * @flow
- */
+import { Navigation } from 'react-native-navigation';
 
-import React, { PureComponent } from 'react';
-import {
-  StyleSheet,
-  View,
-} from 'react-native';
-import { Provider } from 'react-redux';
+import MainScreen from './containers/MainScreen';
 
-import configureStore from './src/store/configureStore';
-import MainScreen from './src/containers/MainScreen';
+export const initiateNavigatorScreen = () => {
+  Navigation.startSingleScreenApp({
+    screen: {
+      screen: 'MainScreen',
+      title: 'MainScreen',
+    },
+    navigatorStyle: {
+      navBarTitleTextCentered: true,
+    },
+    animationType: 'slide-down',
+    appStyle: {
+      orientation: 'portrait',
+    },
+    overrideBackPress: true,
+  });
+};
 
-export default class App extends PureComponent<{}> {
-  render() {
-    const store = configureStore();
-    return (
-      <View style={styles.container}>
-        <Provider store={store}>
-          <MainScreen />
-        </Provider>
-      </View>
-    );
-  }
+export function registerScreens(store, Provider) {
+  Navigation.registerComponent('MainScreen', () => MainScreen, store, Provider);
+
+  initiateNavigatorScreen();
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-    backgroundColor: '#F5FCFF',
-  },
-});
