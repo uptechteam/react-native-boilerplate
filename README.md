@@ -13,7 +13,7 @@ Boilerplate consists of
 * Unit Tests 
 * Automated Tests
 * [Sentry](https://github.com/getsentry/react-native-sentry)
-* ESLint that extends[airbnb] (https://gist.github.com/radiovisual/7c27e5a1d0f7aa56e0e3922c98e19ffc) rules
+* ESLint that extends [airbnb](https://gist.github.com/radiovisual/7c27e5a1d0f7aa56e0e3922c98e19ffc) rules
 In branch *feature/wix_navigation*
 * [wix-react-native-navigation](https://github.com/wix/react-native-navigation)
 
